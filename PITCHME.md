@@ -13,9 +13,11 @@
 ---
 
 # History
-* 0.x Initial Prototype
-* 1.x Production
-* 2.x Async Python 3.5
+- 0.x Initial Prototype |
+- 1.x Production        |
+  - 3 services          |
+  - Multihomed          |
+- 2.x Async Python 3.5  |
 
 ---
 
@@ -27,7 +29,7 @@
   - create BB job |
   - scopes        |
 - exception       |
-  - dedaline      |
+  - deadline      |
   - canceled      |
 
 ---
@@ -42,35 +44,39 @@
 ---
 
 # Reflector
- - reclaimTask() |
- - Async!        |
+- reclaimTask() |
+- Async!        |
 
 ---
+# Limitations
 
-# Consumers
-
-* Releasetasks
-* Backfill
-* ???
+- Requires BB builder        |
+- Properties all the things! |
+- Artifacts                  |
 
 ---
-
 # Issues
 
-* Duplicates
-* Bottlenecks
-** DB Locks
-** Slow DB queries
-** Synchronous reflector
-* No artifacts
+- Duplicates              |
+- Bottlenecks             |
+  - DB Locks              |
+  - Slow DB queries       |
+  - Synchronous reflector |
+
+---
+# Consumers
+
+- Releasetasks
+- Backfill
+- ???
 
 ---
 
 # HOWTO
 
-* Create a builder in BB
-* Schedule in TC
-* payload.properties
+* Create a builder in BB |
+* Schedule in TC         |
+* payload.properties     |
 
 ---
 
