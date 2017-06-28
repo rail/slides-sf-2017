@@ -21,9 +21,25 @@
 
 # Services
 
-* TC Listener
-* BB Listener
-* Reflector
+* TC Listener |
+ * pending |
+   * create BB job
+   * scopes
+ * exception |
+   * dedaline
+   * canceled
+
+* BB Listener |
+  * started |
+    * claimTask()
+  * finished |
+    * resolveTask()
+    * log upload
+
+
+* Reflector |
+ * reclaimTask() |
+ * Async! |
 
 ---
 
